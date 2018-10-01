@@ -68,33 +68,33 @@ inline int Persona::getEdad()
 }
 inline void Persona::setNombre()
 {
-cin>>Nombre;
+std::cin>>Nombre;
 }
 inline void Persona::setApellidos()
 {
-cin>>Apellidos;
+std::cin>>Apellidos;
 }
 inline void Persona::setDNI()
 {
-cin>>DNI;
+std::cin>>DNI;
 }
 inline void Persona::setLocalidad()
 {
-cin>>Localidad;
+std::cin>>Localidad;
 }
 inline void Persona::setDireccion()
 {
-cin>>Direccion;
+std::cin>>Direccion;
 }
 inline void Persona::setPais()
 {
-cin>>Pais;
+std::cin>>Pais;
 }
 inline void Persona::setProvincia()
 {
-cin>>Provincia;
+std::cin>>Provincia;
 }
 inline void Persona::setEdad()
 {
-cin>>Edad;
+std::cin>>Edad;
 }
