@@ -1,6 +1,7 @@
 //Persona.cc
 #include <iostrean>
 #include <string>
+#include <Persona.h>
 
 Persona::Persona()
 {
