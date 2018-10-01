@@ -1,5 +1,7 @@
 //persona.h
 //Aqui declaramos la clase persona
+#include <iostream>
+#include <string>
 using namespace std;
 class Persona
 {
@@ -25,15 +27,17 @@ public:
   void setEdad();
   int getEdad();
   void setDireccion();
-  string getDireccion();s
+  string getDireccion();
   void setLocalidad();
-  string getLocaliad();
+  string getLocalidad();
   void setProvincia();
   string getProvincia();
   void setPais();
   string getPais();
   string getApellidosYNombre();
-}
+  void Imprimir();
+
+};
 inline string Persona::getDNI()
 {
   return DNI;
@@ -65,36 +69,57 @@ inline string Persona::getDireccion()
 inline int Persona::getEdad()
 {
   return Edad;
+
 }
 inline void Persona::setNombre()
 {
 std::cin>>Nombre;
+
+
 }
 inline void Persona::setApellidos()
 {
 std::cin>>Apellidos;
+
+
 }
 inline void Persona::setDNI()
 {
 std::cin>>DNI;
+
+
 }
 inline void Persona::setLocalidad()
 {
 std::cin>>Localidad;
+
+
 }
 inline void Persona::setDireccion()
 {
 std::cin>>Direccion;
+
+
 }
 inline void Persona::setPais()
 {
 std::cin>>Pais;
+
+
 }
 inline void Persona::setProvincia()
 {
 std::cin>>Provincia;
+
+
 }
 inline void Persona::setEdad()
 {
 std::cin>>Edad;
+
+
+}
+inline void Persona::Imprimir()
+{
+  std::cout<<NYA<<" "<<Direccion<<" "<<DNI<<" "<<Edad<<std::endl;
 }
