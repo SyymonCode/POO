@@ -1,6 +1,6 @@
 //persona.h
 //Aqui declaramos la clase persona
-
+using namespace std;
 class Persona
 {
   //Parte privada
@@ -13,6 +13,7 @@ private:
   string Localidad;
   string Provincia;
   string Pais;
+  string NYA;
 public:
   Persona();//Constructor de la clase
   void setNombre();
@@ -31,6 +32,7 @@ public:
   string getProvincia();
   void setPais();
   string getPais();
+  string getApellidosYNombre();
 }
 inline string Persona::getDNI()
 {
