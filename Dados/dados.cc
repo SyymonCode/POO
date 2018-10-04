@@ -12,6 +12,9 @@ Dados::Dados()
 	numero2_=0;
 	media1=0;
 	media2=0;
+media1_=0;
+media2_=0;
+
 	srand(time(NULL));
 }
 
@@ -99,18 +102,18 @@ int Dados::getLanzamientos2()//Devuelve el numero de lanzamientos del segundo da
 
 float Dados::getMedia1()//Devuelve el valor de la media del dado 1
 {
-	float media1_;
-	if(media1_!=0 && numero1_!=0)
+	if((media1!=0) && (numero1_!=0))
 	{media1_=media1/numero1_;}
-	else
-	{return media1_;}
+
+	return media1_;
+
 }
 
 float Dados::getMedia2()//Devuelve el valor de la media del dado 2
 {
-	float media2_;
-	if(media2_!=numero2_)
+	if((media2!=0) && (numero2_!=0))
 	{media2_=media2/numero2_;}
-	else
-	{return media2_;}
+
+	return media2_;
+
 }

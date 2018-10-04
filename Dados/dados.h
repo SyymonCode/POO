@@ -10,6 +10,8 @@
   int numero2_;
   float media1;
   float media2;
+  float media1_;
+  float media2_;
  public:
  	Dados();//Esto es el constructor de la clase
  	void lanzamiento();//Obiene un valor aleatorio para los dos dados

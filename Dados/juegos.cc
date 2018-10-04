@@ -41,7 +41,7 @@ int main()
 			std::cout <<"La suma vale="<<d.getSuma()<<std::endl;
 			break;
 		case 4:
-			std::cout <<"La diferencia entre los dados vale="<<d.diferencia()<<std::endl;
+			std::cout <<"La diferencia entre los dados vale="<<d.getDiferencia()<<std::endl;
 			break;
 		case 5:
 			std::cout <<"El dado uno se ha lanzado "<<d.getLanzamientos1()<< " veces, y el dado dos"<<d.getLanzamientos2()<< " veces"<<std::endl;
