@@ -73,7 +73,7 @@ int Dados::getSuma()//Suma los valores de ambos dados
 	suma=d1_+d2_;
 	return suma;
 }
-int Dados::diferencia()//Calcula la diferencia entre ambos dados
+int Dados::getDiferencia()//Calcula la getDiferencia entre ambos dados
 {
 int diferencia=0;
 	if(d1_>d2_)

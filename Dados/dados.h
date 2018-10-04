@@ -18,7 +18,7 @@
 	bool setDado1(int a);//Recibe un valor y lo introduce en d1, solo si esta entre 1 y 6
 	bool setDado2(int b);//Igual que setDado1 pero con el dado 2
 	int getSuma();//Devuelve la suma de los dados
-  int diferencia();//Esta funscion devuelve la diferencia entre ambos dados;
+  int getDiferencia();//Esta funcion devuelve la diferencia entre ambos dados;
   int getLanzamientos1();//Esta funcion devuelve el numero de lanzamientos del dado 1
   int getLanzamientos2();//Esta funcion devuelve el numero de lanzaientos del dado2
   float getMedia1();//Esta funcion devuelve la media del dado 1
